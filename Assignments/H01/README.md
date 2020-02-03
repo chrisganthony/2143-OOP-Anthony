@@ -62,11 +62,11 @@ Polymorphism means that a call to a member function will cause a different funct
 
 The access restriction to the class members is specified by the labeled public, private, and protected sections within the class body. The keywords public, private, and protected are called access specifiers.
 
-*Public:* All the class members declared under public will be available to everyone. The data members and member functions declared public can be accessed by other classes too. The public members of a class can be accessed from anywhere in the program using the direct member access operator (.) with the object of that class.
+**Public:** All the class members declared under public will be available to everyone. The data members and member functions declared public can be accessed by other classes too. The public members of a class can be accessed from anywhere in the program using the direct member access operator (.) with the object of that class.
 
-*Private:* The class members declared as private can be accessed only by the functions inside the class. They are not allowed to be accessed directly by any object or function outside the class. 
+**Private:** The class members declared as private can be accessed only by the functions inside the class. They are not allowed to be accessed directly by any object or function outside the class. 
 
-*Protected:* Protected access modifier is similar to that of private access modifiers, the difference is that the class member declared as protected are inaccessible outside the class but they can be accessed by any subclass (derived class) of that class.
+**Protected:** Protected access modifier is similar to that of private access modifiers, the difference is that the class member declared as protected are inaccessible outside the class but they can be accessed by any subclass (derived class) of that class.
 
 ## *Virtual:*
 
