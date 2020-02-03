@@ -1,5 +1,7 @@
 ##*Abstraction*:
+
 Abstraction is hiding the elements by making them private and/or protected in classes (basically structures too) so that they are secure and cannot be accessed from outside the class easily. Data abstraction provides only essential information about the data to the outside world, hiding the background details or implementation.
+
 ##*Attributes / Properties*:
 
 A class’s attributes are the data elements used to describe an object instantiated from the class. They are the values needed for the object to function properly in the program.
