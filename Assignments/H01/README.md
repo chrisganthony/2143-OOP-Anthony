@@ -1,4 +1,4 @@
-##*Abstraction*:
+## **Abstraction**:
 
 Abstraction is hiding the elements by making them private and/or protected in classes (basically structures too) so that they are secure and cannot be accessed from outside the class easily. Data abstraction provides only essential information about the data to the outside world, hiding the background details or implementation.
 •	Attributes / Properties:
