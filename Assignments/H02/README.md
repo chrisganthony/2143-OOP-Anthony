@@ -9,6 +9,7 @@ Anthony
 •	A hand should be able to display all the cards (in hand)
 •	A hand should know how to compare to other hands
 •	A hand should be able to sort the cards
+
 Poker
 •	A poker class should know the number of rounds
 •	A poker class should know the ranking of the different types of hands
