@@ -71,7 +71,7 @@ d8'          `8b  88       88    "Y888  88       88   `"YbbdP"'   88       88   
 // Description:
 //    This code adds some improvements to our vector class written in the
 //    previous lesson. This program also overloads different types of 
-//    operators in the node class. Different functions were used to perform
+//    operators in the node class. Different functions were also used to perform
 //    various operations on a list.
 //
 /////////////////////////////////////////////////////////////////////////////////
