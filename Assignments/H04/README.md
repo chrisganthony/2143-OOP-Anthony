@@ -28,4 +28,4 @@
 
 ### Diagram
 
-<https://www.lucidchart.com/documents/view/64295aae-191e-41eb-8c52-ce9eaf73cb08>
+<img src="https://www.lucidchart.com/documents/view/64295aae-191e-41eb-8c52-ce9eaf73cb08" width = "200">
