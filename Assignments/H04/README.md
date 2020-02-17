@@ -6,7 +6,7 @@
         
 ### Card
 
-<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/H04/CARD%20pic.PNG?raw=true" width="200">
+<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/H04/CARD%20pic.PNG?raw=true" width="300">
 
 ### Deck
 
