@@ -12,7 +12,7 @@
 
 ### Deck
 
-<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/H04/Untitled%20Diagram.png" width="200">
+<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/H04/Untitled%20Diagram.png" width="300">
 
 ### Hand
 
