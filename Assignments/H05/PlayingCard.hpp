@@ -76,21 +76,21 @@ bool operator()(const Card &);
 };
 
 /**
-     * Public : Card
-     *
-     * Description:
-     *      Represents a single card in a deck of cards to include a
-     *      value along with rank and suit. We are assuming a standard
-     *      card type in a deck of playing cards.
-     *
-     * Params:
-     *      int :  value from 0 - 51 that represents a card in a deck.
-     *
-     * Returns:
-     *      None
-     */
+ * Public : Card
+ *
+ * Description:
+ *      Represents a single card in a deck of cards to include a
+ *      value along with rank and suit. We are assuming a standard
+ *      card type in a deck of playing cards.
+ *
+ * Params:
+ *      int :  value from 0 - 51 that represents a card in a deck.
+ *
+ * Returns:
+ *      None
+ */
 
-    // Overloaded Constructor
+// Overloaded Constructor
 Card::Card(int num) {
     number = num;
     suitNum = number / 13;
@@ -101,18 +101,18 @@ Card::Card(int num) {
 }
 
 /**
-     * Public : Repr
-     *
-     * Description:
-     *      Returns a string representation of the card class with
-     *      colors embedded.
-     *
-     * Params:
-     *      None
-     *
-     * Returns:
-     *      [string] - representation of card
-     */
+ * Public : Repr
+ *
+ * Description:
+ *      Returns a string representation of the card class with
+ *      colors embedded.
+ *
+ * Params:
+ *      None
+ *
+ * Returns:
+ *      [string] - representation of card
+ */
 string Card::Repr() {
     string s = "";
     s += color + "┌────┐&00 \n";
