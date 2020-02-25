@@ -7,3 +7,5 @@
 |   05  |[H02](https://github.com/chrisganthony/2143-OOP-Anthony/tree/master/Assignments/H02)    | Poker Game Design|
 |   06  |[H03](https://github.com/chrisganthony/2143-OOP-Anthony/tree/master/Assignments/H03)    | Overloading Operators|
 |   07  |[H04](https://github.com/chrisganthony/2143-OOP-Anthony/tree/master/Assignments/H04)    | Poker Game Design UML Diagram|
+|   08  |[H05](https://github.com/chrisganthony/2143-OOP-Anthony/tree/master/Assignments/H05)    | Not Just Poker|
+
