@@ -8,7 +8,7 @@
 
 ### Person
 
-<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/P03/Person.PNG?raw=true" width="200">
+<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/P03/person.PNG?raw=true" width="200">
 
 ### Simulation
 
@@ -24,5 +24,5 @@
 
 ### Diagram
 
-<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/P03/Diagram.jpeg?raw=true" width = "400">
+<img src="https://github.com/chrisganthony/2143-OOP-Anthony/blob/master/Assignments/P03/Diagram.PNG?raw=true" width = "400">
 
