@@ -32,8 +32,59 @@ using namespace std;
  ██║     ██╔══██║██╔══██╗██║  ██║
  ╚██████╗██║  ██║██║  ██║██████╔╝
   ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
-*/
-
+ *
+ * Description:
+ *      This class will create an actual representation of playing cards
+ *      by doing arithmetic to calculate the suit and rank of each card,
+ *      along with the giving each card its corresponding color to its suit. 
+ *      This class will also overload the "<<" and boolean operators to print
+ *      and compare cards.
+ *
+ * Public Methods:
+ * 
+ *      friend ostream;
+ *                           Card(int);
+ *      string               Repr();
+ *      bool                 operator<(const Card &);
+ *      bool                 operator>(const Card &);
+ *      bool                 operator==(const Card &);
+ *      bool                 operator!=(const Card &);
+ *      bool                 operator()(const Card &);
+ *      
+ * Private:
+ * 
+ *      const string         spade
+ *      const string         diamond
+ *      const string         heart     
+ *      const string         club
+ *      const string         suits[4]
+ *      const string         colors[4]
+ *      const string         ranks[13]
+ *      int                  suitNum
+ *      int                  rank
+ *      int                  number
+ *      int                  value
+ *      string               suitChar
+ *      string               rankChar
+ *      string               color
+ *          
+ * Usage:
+ *
+ *      friend ostream      // Granted access to cards' private data members
+ *                              // to print a card
+ * 
+ *      Card(int)           // Overloaded constructor that initializes a card
+ *                          Ex.) Card C1(5) is a 5 of Spades
+ *                               Card C2(14) is a Ace of Diamonds
+ * 
+ *      Repr()              // Returns a string representation of a card
+ *      
+ *      C1 < C2;             // Compares the cards' rank and results in true
+ *      C1 > C2;             // Compares the cards' rank and results in false
+ *      C1 == C2;            // Compares the cards' rank and results in false
+ *      C1 != C2;            // Compares the cards' rank and results in true
+ *
+ */
 class Card {
 
 private:
@@ -149,23 +200,91 @@ ostream &operator<<(ostream &os, Card obj) {
     return os;
 }
 
- // This overloads the (<) operator to compare two cards
+/**
+ * Public : operator <
+ *
+ * Description:
+ *      Overloads the "<" operator to compare two cards and returns
+ 
+ *      true if "this->rank" is less than rhs.rank.
+ *
+ * Params:
+ *      const [Card&]     : rhs
+ *
+ * Returns:
+ *      bool
+ */
+
 bool Card::operator<(const Card &rhs) {
     return this->rank < rhs.rank;
 }
- // This overloads (>) operator to compare two cards
+
+/**
+ * Public : operator >
+ *
+ * Description:
+ *      Overloads the ">" operator to compare two cards and returns
+ *      true if "this->rank" is greater than rhs.rank.
+ *
+ * Params:
+ *      const [Card&]     : rhs
+ *
+ * Returns:
+ *      bool
+ */
 bool Card::operator>(const Card &rhs) {
     return this->rank > rhs.rank;
 }
-// This overloads the (==) operator to compare two cards
+
+/**
+ * Public : operator ==
+ *
+ * Description:
+ *      Overloads the "==" operator to compare two cards and returns
+ *      true if the cards' ranks are eqaul.
+ *
+ * Params:
+ *      const [Card&]     : rhs
+ *
+ * Returns:
+ *      bool
+ */
 bool Card::operator==(const Card &rhs) {
     return this->rank == rhs.rank;
 }
- // This overloads the (!=) operator to compare two cards
+
+/**
+ * Public : operator !=
+ *
+ * Description:
+ *      Overloads the "!=" operator to compare two cards and returns 
+ *      true if the cards' ranks are not equal.
+ *
+ * Params:
+ *      const [Card&]     : rhs
+ *
+ * Returns:
+ *      bool
+ */
 bool Card::operator!=(const Card &rhs) {
     return this->rank != rhs.rank;
 }
- // This overloads the () operator to compare two cards
+
+/**
+ * Public : operator ()
+ *
+ * Description:
+ *      Overloads the "()" operator to compare two Cards witout
+ *      using the "<" operator. Returns true if "this->rank" is
+ *      less than "rhs.rank".
+ 
+ * 
+ * Params:
+ *      const [Card&]     : rhs
+ *
+ * Returns:
+ *      bool
+ */
 bool Card::operator()(const Card &rhs) {
     return (this->rank < rhs.rank);
 }
