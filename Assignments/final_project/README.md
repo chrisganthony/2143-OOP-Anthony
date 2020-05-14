@@ -1,6 +1,6 @@
-### COVID-19 Pandemic Simulation
+# COVID-19 Pandemic Simulation
 
-## *Instructions for running the simulation:* 
+### *Instructions for running the simulation:* 
 
 Open the main folder in Vscode or any text editor/IDE that you are using that can run python. Be advised that these instructions assumes that youare running vscode. To begin the simulation, right click anywhere within the code and select run python file in terminal. If no errors are found the simulation should run.
 
