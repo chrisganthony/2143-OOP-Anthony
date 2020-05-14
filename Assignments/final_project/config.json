@@ -1,0 +1,11 @@
+    {
+    "height" : 300,
+    "width" : 350,
+    
+    "population_count" : 12,
+    "sprite_width" : 14,
+    "sprite_height" : 14,
+    "sprite_speed" : 3,
+    "pid" : 1,
+    "myClock" : 1
+    }
